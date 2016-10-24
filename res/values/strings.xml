@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My_first_aplication</string>
+<string name="tytul_ekran">Android Sudoku</string>
+<string name="kontuacja">Kontynuacja</string>
+<string name="nowa_gra">Nowa gra</string>
+<string name="informacja">Informacja</string>
+<string name="wyjscie">Wyjśie</string>
+<string name="tytul_informacje">Infromacje o grze</string>
+<string name="tekst_informacje">\
+    Sudoko jest logiczną, polegającą na właściwym///////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////
+    </string>
+<string name="tytul_ustawienia">Ustawienia gry Sudoku</string>
+<string name="skrot_ustawienia">s</string>
+<string name="etekietka_ustawienia">Ustawienia</string>
+<string name="tutyl_muzuka">Muzyka</string>
+<string name="podsumowanie_muzyka">Odwarzanie muzyki w tle</string>
+<string name="podsumowanie_podpowiedzi">Wyświetlanie podpowiedzi w trakcie gry</string>
+<string name="tytul_podpowiedzi">Podpowiedzi</string>
+<string name="tytul_nowa_gra">Poziom trudnosci</string>
+<string name="etekietka_latly">łatły</string>
+<string name="etekietka_sredni">średni</string>
+<string name="etekietka_trudny">trudny</string>
+<string name="tytul_gra">Gra</string>
+<string name="tytul_klawiatura">Klawiatura</string>
+<string name="etykietka_brak_ruchow">Brak ruchów</string>
+    </resources>
+

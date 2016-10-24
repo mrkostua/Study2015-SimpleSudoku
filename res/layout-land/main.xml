@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context="com.example.calculate.MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tytul_ekran"
+        android:textSize="24.5sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+            <Button
+        android:id="@+id/przycisk_nowa_gra"
+        android:text="@string/nowa_gra" />
+
+    <Button
+        android:id="@+id/przycisk_informacja"
+        android:text="@string/informacja" />
+        </TableRow>
+        <TableRow>
+    <Button
+        android:id="@+id/przycisk_kontuacja"
+        android:text="@string/kontuacja" />
+
+    <Button
+        android:id="@+id/przycisk_wyjscie"
+        android:text="@string/wyjscie" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+</LinearLayout>

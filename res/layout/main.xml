@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.calculate.MainActivity">
+
+    <Button
+        android:id="@+id/przycisk_nowa_gra"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/nowa_gra"
+
+        />
+
+    <Button
+        android:id="@+id/przycisk_informacja"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/przycisk_nowa_gra"
+        android:layout_centerHorizontal="true"
+        android:text="@string/informacja"
+
+       />
+
+    <Button
+        android:id="@+id/przycisk_kontuacja"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/przycisk_nowa_gra"
+        android:layout_centerHorizontal="true"
+        android:text="@string/kontuacja" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/przycisk_kontuacja"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tytul_ekran"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24.5sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/przycisk_wyjscie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/przycisk_informacja"
+        android:layout_centerHorizontal="true"
+        android:text="@string/wyjscie" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop music"
+        android:id="@+id/button_sto_music"
+        android:layout_below="@+id/przycisk_wyjscie"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

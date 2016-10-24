@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="trudnosc">
+        <item>@string/etekietka_latly</item>
+        <item>@string/etekietka_sredni</item>
+        <item>@string/etekietka_trudny</item>
+    </array>
+</resources>
